@@ -1,0 +1,44 @@
+.skills{
+  min-height:100vh;
+  background:#0f172a;
+  padding:120px 8%;
+  color:white;
+}
+
+.skills h2{
+  text-align:center;
+  font-size:3rem;
+  margin-bottom:50px;
+}
+
+.skills-wrapper{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+.skill-btn{
+  padding:18px 35px;
+  border:none;
+  border-radius:15px;
+
+  background:#1e293b;
+  color:white;
+
+  font-size:18px;
+  font-weight:600;
+
+  cursor:pointer;
+  transition:.3s;
+}
+
+.skill-btn:hover{
+  transform:translateY(-8px);
+
+  background:#38bdf8;
+
+  box-shadow:
+    0 0 15px #38bdf8,
+    0 0 35px #38bdf8;
+}
