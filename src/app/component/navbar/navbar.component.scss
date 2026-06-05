@@ -1,6 +1,19 @@
+
+*{
+  box-sizing: border-box;
+}
+
 html{
   scroll-behavior:smooth;
 }
+
+html,
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 
 .navbar{
   position: fixed;
@@ -79,3 +92,29 @@ a:hover::after{
   transform-origin: left center;
 }
 
+@media (max-width: 576px){
+
+  .navbar{
+    padding: 0 15px;
+    height: auto;
+    min-height: 80px;
+
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .logo img{
+    width: 140px;
+  }
+
+  .navbar ul{
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar ul li a{
+    font-size: 14px;
+  }
+}

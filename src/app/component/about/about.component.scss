@@ -67,3 +67,36 @@
   color:#38bdf8;
   font-size:2rem;
 }
+
+@media (max-width: 576px){
+
+  .about{
+    width: 100%;
+    overflow: hidden;
+    padding: 60px 20px;
+  }
+
+  .about-content{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .about-stats{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .stat-card{
+    width: 100%;
+  }
+
+  .about h2{
+    font-size: 2.5rem;
+  }
+
+  .about p{
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
