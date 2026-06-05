@@ -31,14 +31,19 @@
 }
 
 .social-icon{
-  width:20px;
-  height:20px;
-  cursor:pointer;
-  transition:.3s;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: .3s;
+  object-fit: contain;
 }
 
 .social-icon:hover{
   transform:scale(1.1);
+}
+
+.info-card,.gana.a{
+    font-size: 60px;
 }
 
 .info-card{
